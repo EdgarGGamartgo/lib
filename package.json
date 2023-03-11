@@ -10,7 +10,8 @@
   "scripts": {
     "publish": "yarn build && yarn lerna run publish",
     "build": "yarn lerna run build",
-    "dev": "yarn lerna run dev" 
+    "dev": "yarn lerna run dev",
+    "test": "" 
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/@stoademo"
