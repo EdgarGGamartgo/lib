@@ -1,0 +1,18 @@
+{
+  "name": "@stoademo/core",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  },
+  "scripts": {
+    "publish": "yarn build && yarn lerna run publish",
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev" 
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/@stoademo"
+  }
+}
